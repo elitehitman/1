@@ -1,0 +1,17 @@
+.homeTitle {
+    background-color: greenyellow;
+    border: 3px solid red;
+    height: 85px;
+}
+
+.Task {
+    position: absolute;
+    left: 220px;
+}
+
+.Time {
+    border: 2px solid black;
+    width: 1260px;
+    text-align: left;
+    padding: 10px;
+}

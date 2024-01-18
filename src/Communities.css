@@ -1,0 +1,48 @@
+.communityTitle {
+    background-color: aqua;
+    border: 3px solid red;
+    height: 85px;
+}
+
+.communities {
+    display: flex;
+    display: inline-grid;
+    position: absolute;
+    left: 300px;
+}
+
+.com {
+    display: flex;
+    border: 2px solid black;
+    margin: 50px 150px;
+    padding: 70px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 120px;
+    width: 70px;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.com1 {
+    display: flex;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 100px;
+}
+
+.com2 {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 4px;
+    position: relative;
+    top: 10px;
+}
+
+.com3 {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 4px;
+    position: relative;
+    bottom: 80px;
+}

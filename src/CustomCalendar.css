@@ -1,0 +1,24 @@
+.CalTitle {
+    border: 3px solid red;
+    background-color: greenyellow;
+    height: 85px;
+}
+
+.react-calendar {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    border: 10px solid red;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 270px;
+
+}
+
+.react-calendar__month-view__days__day {
+    border: 1px solid black;
+}

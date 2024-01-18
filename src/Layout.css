@@ -1,0 +1,20 @@
+.btn {
+    background-color: aqua;
+    display: flex;
+    padding: 24.25px;
+    margin: 13px;
+    width: 170px;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.buttons {
+    border: 2px solid black;
+    position: absolute;
+    padding: 4px;
+    background-color: orange;
+}
