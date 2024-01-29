@@ -1,11 +1,13 @@
 import React from "react";
 import Layout from "./Layout";
-import "./Layout.css"
+import "./Layout.css";
 export const Home = () => {
   return (
-    <div className="home">
-      <div className="homeTitle">
-        <h1>Home</h1>
+    <div className="home1">
+      <div className="home2">
+        <div className="homeTitle">
+          <h1>Home</h1>
+        </div>
         <div className="Task">
           <h2 className="Time">00:00</h2>
           <h2 className="Time">01:00</h2>
@@ -32,8 +34,8 @@ export const Home = () => {
           <h2 className="Time">22:00</h2>
           <h2 className="Time">23:00</h2>
         </div>
+        <Layout />
       </div>
-      <Layout />
     </div>
   );
 };

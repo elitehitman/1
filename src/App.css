@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.rbc-day-bg:hover {
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease;
+}
+
+/* Add any global styles here */

@@ -3,12 +3,21 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Chatbot } from "./Chatbot";
 import { Home } from "./Home";
 import { Events } from "./Events";
-import Calendar from "react-calendar";
 import { Communities } from "./Communities";
 import "./Layout.css";
 import "./Home.css";
 import "react-calendar/dist/Calendar.css";
 import "./CustomCalendar.css";
+import { Calendar, dateFnsLocalizer } from "react-big-calendar";
+import format from "date-fns/format";
+import parse from "date-fns/parse";
+import startOfWeek from "date-fns/startOfWeek";
+import getDay from "date-fns/getDay";
+import "react-big-calendar/lib/css/react-big-calendar.css";
+import React from "react";
+import DatePicker from "react-datepicker";
+import Layout from "./Layout";
+import { CustomCalendar } from "./Calendar";
 
 function App() {
   return (
@@ -17,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Communities" element={<Communities />} />
-          <Route path="/Calendar" element={<Calendar />} />
+          <Route path="/Calendar" element={<CustomCalendar />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/Chatbot" element={<Chatbot />} />
         </Routes>

@@ -1,7 +1,14 @@
 .communityTitle {
-    background-color: aqua;
-    border: 3px solid red;
+    /* background-color: aqua; */
+    /* border: 3px solid red; */
+    /* height: 85px; */
+    background-color: #61dafb;
+    border: 3px solid #333;
     height: 85px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .communities {
@@ -9,11 +16,12 @@
     display: inline-grid;
     position: absolute;
     left: 300px;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .com {
     display: flex;
-    border: 2px solid black;
     margin: 50px 150px;
     padding: 70px;
     border-radius: 50px;
@@ -21,7 +29,13 @@
     bottom: 120px;
     width: 70px;
     justify-content: center;
-    background-color: bisque;
+    border: 2px solid #333;
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+    /* width: 150px; */
+    text-align: center;
+    background-color: #bfbebe;
+    transition: transform 0.3s ease;
 }
 
 .com1 {
@@ -45,4 +59,26 @@
     margin: 4px;
     position: relative;
     bottom: 80px;
+}
+
+.community {
+    background-color: #fff;
+}
+
+.com:hover {
+    transform: scale(1.05);
+}
+
+.CalTitle {
+    /* background-color: greenyellow; */
+    /* border: 3px solid red; */
+    /* height: 85px; */
+    background-color: #61dafb;
+    border: 3px solid #333;
+    height: 85px;
+    color: #fff;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
