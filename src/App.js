@@ -15,9 +15,8 @@ import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import React from "react";
-import DatePicker from "react-datepicker";
-import Layout from "./Layout";
 import { CustomCalendar } from "./Calendar";
+import "react-datepicker/dist/react-datepicker.css";
 
 function App() {
   return (

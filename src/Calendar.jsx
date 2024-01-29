@@ -8,7 +8,6 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import Layout from "./Layout";
-import { useNavigate } from "react-router-dom";
 
 const locales = {
   "en-IND": require("date-fns/locale/en-IN"),
@@ -21,26 +20,25 @@ const localizer = dateFnsLocalizer({
   locales,
 });
 const events = [
-  {
-    title: "Big Meeting",
-    allDay: true,
-    start: new Date(2024, 0, 29),
-    end: new Date(2024, 0, 29),
-  },
-  {
-    title: "Vacation",
-    start: new Date(2024, 1, 25),
-    end: new Date(2024, 1, 26),
-  },
-  {
-    title: "Conference",
-    start: new Date(2024, 1, 12),
-    end: new Date(2024, 1, 12),
-  },
+  //   {
+  //     title: "Big Meeting",
+  //     allDay: true,
+  //     start: new Date(2024, 0, 29),
+  //     end: new Date(2024, 0, 29),
+  //   },
+  //   {
+  //     title: "Vacation",
+  //     start: new Date(2024, 1, 25),
+  //     end: new Date(2024, 1, 26),
+  //   },
+  //   {
+  //     title: "Conference",
+  //     start: new Date(2024, 1, 12),
+  //     end: new Date(2024, 1, 12),
+  //   },
 ];
 
 export const CustomCalendar = () => {
-  const navigate = useNavigate();
   const [newEvent, setNewEvent] = useState({ title: "", start: "", end: "" });
   const [allEvents, setallEvents] = useState(events);
 
@@ -52,7 +50,7 @@ export const CustomCalendar = () => {
     <div>
       <div class="CalTitle">
         <h1>Calendar</h1>
-        {/* <h2>Add New Event</h2>
+        <h2>Add New Event</h2>
         <div>
           <input
             type="text"
@@ -81,7 +79,7 @@ export const CustomCalendar = () => {
           <button style={{ marginTop: "10px" }} onClick={handleAddEvent}>
             Add Event
           </button>
-        </div> */}
+        </div>
       </div>
       <Calendar
         localizer={localizer}
