@@ -1,7 +1,59 @@
 .rbc-calendar {
     display: flex;
     position: absolute;
-    left: 300px;
+    left: 200px;
     width: 1000px;
-    top: 400px;
+    top: 60px;
+}
+
+.EventAdder {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1260px;
+    top: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+    background-color: aqua;
+}
+
+.EventTitle {
+    height: 20px;
+    width: 170px;
+    margin-left: 23px
+}
+
+
+.Start {
+    padding: 5px;
+    margin: 25px;
+
+}
+
+.End {
+    padding: 5px;
+    margin: 25px;
+}
+
+.AddEvent {
+    padding: 5px;
+    margin: 25px;
+}
+
+.toggleEvent {
+    position: absolute;
+    left: 1450px;
+    top: 610px;
+
+}
+
+.add {
+    width: 50px;
+    height: 50px;
+}
+
+.timeSet {
+    position: absolute;
+    left: 1300px;
 }

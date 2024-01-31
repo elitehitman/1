@@ -1,0 +1,53 @@
+.communitiesTitle {
+    /* display: flex;
+    height: 85px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #333;
+    background-color: #61dafb; */
+}
+
+
+.groups {
+    /* border: 2px solid black; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 1332px;
+    border: 2px solid black;
+    height: 86.5%;
+    width: 200px;
+    background-color: #baf0ff;
+}
+
+.group {
+    border: 2px solid black;
+}
+
+.add1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 571px;
+}
+
+.inp {
+    position: absolute;
+    top: 550px;
+    right: 0px;
+    width: 194px;
+}
+
+.addGrp {
+    position: absolute;
+    top: 571px;
+    width: 120px;
+    right: 0px;
+    width: 170px;
+    height: 30px;
+}
+
+.highlight {
+    background-color: yellow;
+}

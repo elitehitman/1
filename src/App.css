@@ -50,7 +50,7 @@ body {
 }
 
 .rbc-day-bg:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(224, 222, 222);
   transition: background-color 0.3s ease;
 }
 

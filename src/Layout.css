@@ -12,25 +12,28 @@
     justify-content: center;
     background-color: #61dafb;
     color: #fff;
-    /* padding: 10px 20px; */
-    /* border: none; */
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
 }
 
+
 .buttons {
-    /* border: 2px solid black; */
-    position: absolute;
-    /* padding: 4px; */
-    /* background-color: orange; */
-    /* display: flex; */
+    position: fixed;
     justify-content: space-around;
     padding: 10px;
     background-color: #333;
 }
 
+
 .btn:hover {
     background-color: #4285f4;
+}
+
+.hamburger {
+    position: absolute;
+    left: 0px;
+    background-color: #61dafb;
+    transition: ease 0.3s;
 }

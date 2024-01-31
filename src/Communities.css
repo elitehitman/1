@@ -9,7 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: fixed; */
 }
+
 
 .communities {
     display: flex;
@@ -27,7 +29,7 @@
     border-radius: 50px;
     position: relative;
     bottom: 120px;
-    width: 70px;
+    width: 170px;
     justify-content: center;
     border: 2px solid #333;
     /* padding: 20px; */
@@ -63,6 +65,7 @@
 
 .community {
     background-color: #fff;
+    /* position: fixed; */
 }
 
 .com:hover {
