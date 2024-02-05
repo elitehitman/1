@@ -1,6 +1,7 @@
 // Layout.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import logo from "./logo.png";
 
 const Layout = ({ children }) => {
   const navigate = useNavigate();
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
   return (
     <div className="container">
       <div>
+        <img className="logo" src={logo} alt="Logo" height={80} width={80} />
         <button
           className="hamburger"
           onClick={toggleIcons}

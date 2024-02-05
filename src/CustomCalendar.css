@@ -14,8 +14,8 @@
     top: 200px;
     padding: 10px;
     margin: 10px;
-    border: 2px solid red;
-    background-color: aqua;
+    border: 2px solid black;
+    background-color: #61dafb;
 }
 
 .EventTitle {
@@ -56,4 +56,21 @@
 .timeSet {
     position: absolute;
     left: 1300px;
+}
+
+.custom-calendar-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./cal_background3.jpg');
+    /* Adjust the path accordingly */
+    background-size: cover;
+    /* or 'contain' based on your preference */
+    opacity: 1;
+    /* Adjust the opacity if needed */
+    z-index: -1;
+    /* Place the background behind other content */
 }

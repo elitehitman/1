@@ -19,6 +19,7 @@ import React from "react";
 import { CustomCalendar } from "./Calendar";
 import "react-datepicker/dist/react-datepicker.css";
 import "./EachCommunity.css";
+// import logo from "../public/logo.png";
 
 function App() {
   return (

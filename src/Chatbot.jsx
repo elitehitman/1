@@ -9,7 +9,7 @@ export const Chatbot = () => {
     <div className="chatbot">
       <div className="botTitle">
         <h1>Chatbot</h1>
-        <img className="logo" src={chatBot} alt="Nothing" />
+        <img className="logo1" src={chatBot} alt="Nothing" />
       </div>
       <div className="inputHolder">
         <input className="input" placeholder="Message Chatbot" />

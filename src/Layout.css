@@ -37,3 +37,13 @@
     background-color: #61dafb;
     transition: ease 0.3s;
 }
+
+.hamburger:hover {
+    background-color: #13ccff;
+}
+
+.logo {
+    position: absolute;
+    left: 1450px;
+    top: 2px;
+}

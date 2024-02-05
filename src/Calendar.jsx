@@ -11,6 +11,7 @@ import Layout from "./Layout";
 import TimePicker from "react-time-picker";
 import "react-time-picker/dist/TimePicker.css";
 import "react-clock/dist/Clock.css";
+import back from "./cal_background.jpg";
 
 const locales = {
   "en-IND": require("date-fns/locale/en-IN"),
@@ -39,10 +40,16 @@ export const CustomCalendar = () => {
   }
 
   return (
-    <div>
+    <div className="custom-calendar-container">
       <div className="CalTitle">
         <h1>Calendar</h1>
-        <h2>Add New Event</h2>
+        {/* <img
+          className="cal_background"
+          src={back}
+          alt="Background"
+          height={100}
+          width={100}
+        /> */}
         <div className="toggleEvent">
           <button className="add" onClick={toggleEventAdder}>
             +
